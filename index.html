@@ -15,7 +15,7 @@
         <img src="" alt="dashboard icon">
        <p>Dashboard</p>
       </div>
-      <div class="nav-pages">
+      <div class="nav-profile-pages">
         <ul>
           <li><img src="" alt="home"> <a href="#">Home</a></li>
           <li><img src="" alt="profile"> <a href="#">Profile</a></li>
@@ -23,6 +23,10 @@
           <li><img src="" alt="history"> <a href="#">History</a></li>
           <li><img src="" alt="tasks"> <a href="#">Tasks</a></li>
           <li><img src="" alt="communities"> <a href="#">Communities</a></li>
+        </ul>
+      </div>
+      <div class="nav-settings-pages">
+        <ul>
           <li><img src="" alt="settings" ><a href="#">Settings</a></li>
           <li><img src="" alt="support"> <a href="#">Support</a></li>
           <li><img src="" alt="privacy"> <a href="#">Privacy</a></li>
@@ -30,24 +34,34 @@
       </div>
     </div>
     <div class="header">
-      <div class="search">
-        <img src="" alt="magnifying glass">
-        <input type="text">
-        <img src="" alt="bell">
-        <img src="" alt="mini-profile-img">
-        <p>profile name</p>
+      <div class="top-header">
+        <div class="search">
+          <img src="" alt="magnifying glass">
+          <input type="text">
+        </div>
+        <div class="mini-profile">
+          <img src="" alt="bell">
+          <img src="" alt="mini-profile-img">
+          <p>profile name</p>
+        </div>
       </div>
-      <div class="profile">
-        <img src="" alt="profile-img">
-        <p>Hi there,</p>
-        <p>profile name (@profilename)</p>
-        <input type="submit" value="New">
-        <input type="submit" value="Upload">
-        <input type="submit" value="Share">
+      <div class="bottom-header">
+        <div class="profile-legend">
+          <img src="" alt="profile-img">
+          <div class="profile-info">
+            <p>Hi there,</p>
+            <p>profile name (@profilename)</p>
+          </div>
+        </div>
+        <div class="profile-buttons">
+          <input type="submit" value="New">
+          <input type="submit" value="Upload">
+          <input type="submit" value="Share">
+        </div>
       </div>
     </div>
     <div class="main-content">
-      <p>Your Projects</p>
+      <p class="projects-title">Your Projects</p>        
       <div class="projects">
         <div class="first-project">
           <p>Project 1</p>
@@ -92,41 +106,52 @@
           <img src="" alt="share">
         </div>
       </div>
+      <p class="announcements-title">Announcements</p>
       <div class="announcements">
         <div class="announcement1">
-          <p>Announcement 1</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <p class="announcement-title">Announcement 1</p>
+          <p class="announcement-paragraph">Lorem ipsum dolor sit amet.</p>
+          <hr>
         </div>
         <div class="announcement2">
-          <p>Announcement 2</p>
-          <p>Phasellus egestas tellus rutrum tellus pellentesque. Id neque aliquam vestibulum morbi blandit cursus risus at.</p>
+          <p class="announcement-title">Announcement 2</p>
+          <p class="announcement-paragraph">Phasellus egestas tellus rutrum tellus pellentesque.</p>
+          <hr>
         </div>
         <div class="announcement3">
-          <p>Announcement 3</p>
-          <p>Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Mauris pellentesque pulvinar pellentesque habitant morbi.</p>
+          <p class="announcement-title">Announcement 3</p>
+          <p class="announcement-paragraph">Mattis rhoncus urna neque viverra justo nec ultrices dui sapien.</p>
         </div>
       </div>
+      <p class="trending-title">Trending</p>
       <div class="trending-pages">
-        <p>Trending</p>
         <div class="trending1">
           <img src="" alt="1st-trending-profile">
-          <p>@trendingprofile1</p>
-          <p>Lorem Ipsum</p>
+          <div class="trending-content">
+            <p>@trendingprofile1</p>
+            <p>Lorem Ipsum</p>
+          </div>
         </div>
         <div class="trending2">
           <img src="" alt="2nd-trending-profile">
-          <p>@trendingprofile2</p>
-          <p>Lorem Ipsum</p>
+          <div class="trending-content">
+            <p>@trendingprofile2</p>
+            <p>Lorem Ipsum</p>
+          </div>
         </div>
         <div class="trending3">
           <img src="" alt="3rd-trending-profile">
-          <p>@trendingprofile3</p>
-          <p>Lorem Ipsum</p>
+          <div class="trending-content">
+            <p>@trendingprofile3</p>
+            <p>Lorem Ipsum</p>
+          </div>
         </div>
         <div class="trending4">
           <img src="" alt="4th-trending-profile">
-          <p>@trendingprofile4</p>
-          <p>Lorem Ipsum</p>
+          <div class="trending-content">
+            <p>@trendingprofile4</p>
+            <p>Lorem Ipsum</p>
+          </div>
         </div>
       </div>
     </div>
