@@ -90,7 +90,13 @@ a {
   color: inherit;
 }
 
-.bell:active {
+.bell:active,
+.bell:hover {
+  color: #FFEA20;
+}
+
+.profile-anchor:hover,
+.profile-anchor:active {
   color: #FFEA20;
 }
 
@@ -98,11 +104,9 @@ a {
   color: #fff;
 }
 
-.nav-anchor:hover,
-.nav-anchor:active {
-  color: #000;
+.nav-anchor:hover {
+  color: #FFEA20;
 }
-
 
 
 .header {
@@ -199,12 +203,20 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+input[type="submit"]:hover {
+  color: #FFEA20;
+}
+
 input[type="text"] {
   width: 30vw;
   height: 4vh;
   margin-left: 1vw;
+  padding-left: 1vw;
   border-radius: 10px;
-  background-color: grey;
+  background-color: #7B8FA1;
+  color: #fff;
+  font-size: 1vw;
+  border: none;
 }
 
 .main-content {
@@ -363,16 +375,24 @@ hr {
   margin-left: 1vw;
 }
 
-.project-icons {
-  color: inherit;
-}
-
-.project-icons:active {
+.fa-magnifying-glass:hover {
   color: #FFEA20;
 }
 
 .fa-star, .fa-eye {
   margin-right: 0.5vw;
+}
+
+.fa-star,
+.fa-eye,
+.fa-share {
+  color: #000;
+}
+
+.fa-star:hover,
+.fa-eye:hover,
+.fa-share:hover {
+  color: #FFEA20;
 }
 
 .fa-regular {
@@ -387,14 +407,19 @@ hr {
   color: #000;
 }
 
-.fa-2x:active {
-  color: #FFEA20;
+.trending-content {
+  color: #000;
 }
 
-.trending-profile {
-  color: inherit;
-}
-
+.trending-profile,
 .trending-profile:active {
+  color: #000;
+}
+
+.trending-profile p {
+  color: #000;
+}
+
+.trending-profile:hover{
   color: #FFEA20;
 }
